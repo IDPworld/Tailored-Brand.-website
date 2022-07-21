@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(130, 153, 165)
+}
+nav{
+  background-color: rgb(1, 4, 12);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+.logo{
+  color: rgb(11, 39, 2);
+  font-size: 34px;
+  font-weight: bold;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+nav ul li{
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: oblique;
+  color: rgba(212, 142, 49, 0.986);
+}
+nav ul li a{
+  color: rgba(31, 17, 223, 0.932);
+  margin-right: 20px;
+  text-decoration: none;
+}
+nav ul a.active{
+  background-color: blanchedalmond;  
+}
+nav ul a:hover{
+  color: rgba(115, 108, 122, 0.541);
+  background-color: rgb(8, 8, 49);
+}
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main img{
+  width: 150px;
+  height: 150px;
+  border: 25px;
+}
+#part{
+  display: flex;
+  justify-content: none;
+  align-items: none;
+}
+.part-photo{
+  width: 200px;
+  height: 200px;
+  border: 10px;
+}
+#tags{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-style: oblique;
+}
+  
